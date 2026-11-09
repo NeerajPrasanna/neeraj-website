@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+a {
+  font-family: inherit;
+}
+
+button {
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #2563eb;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
